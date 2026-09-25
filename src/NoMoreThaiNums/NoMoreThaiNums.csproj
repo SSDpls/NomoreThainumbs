@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>NoMoreThaiNums</RootNamespace>
+    <AssemblyName>NoMoreThaiNums</AssemblyName>
+    <Version>0.1.1</Version>
+    <Product>No more Thai Nums</Product>
+    <AssemblyTitle>No more Thai Nums</AssemblyTitle>
+    <Description>Converts Thai numerals typed on Thai keyboards into standard Western digits, system-wide.</Description>
+    <Company>No more Thai Nums contributors</Company>
+    <Copyright>Copyright (c) 2026 No more Thai Nums contributors</Copyright>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <LangVersion>12</LangVersion>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+    <DebugType>portable</DebugType>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="NoMoreThaiNums.Tests" />
+  </ItemGroup>
+
+</Project>
