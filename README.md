@@ -1,5 +1,7 @@
 # No more Thai nums
 
+**Disclaimer: This project is 100% Vibe coding**
+
 **No more Thai nums** is a lightweight Windows utility that automatically converts Thai numerals into Western digits while typing.
 
 ```text
